@@ -38,7 +38,6 @@ public class Json {
 	
 	public static void main(String[] args) {
 		 String filePath = "E:\\11.txt";
-//	      "res/";
 		 JSONObject jsonObj = readTxtFile(filePath);
 		 System.out.println(jsonObj.toString());
 	}
