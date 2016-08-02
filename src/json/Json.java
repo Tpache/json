@@ -13,6 +13,7 @@ public class Json {
 		 JSONObject jsonObject = new JSONObject();  
 	        try {
 	                String encoding="GBK";
+	                //创建文件并读取文件
 	                File file=new File(filePath);
 	                if(file.isFile() && file.exists()){ //判断文件是否存在
 	                    InputStreamReader read = new InputStreamReader(
