@@ -38,6 +38,7 @@ public class Json {
 	    }
 	
 	public static void main(String[] args) {
+		//≤‚ ‘GITµƒ π”√
 		 String filePath = "E:\\11.txt";
 		 JSONObject jsonObj = readTxtFile(filePath);
 		 System.out.println(jsonObj.toString());
